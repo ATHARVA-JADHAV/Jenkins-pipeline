@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git ''
+                git 'https://github.com/ATHARVA-JADHAV/Jenkins-pipeline.git'
             }
         }
         stage('Build Code') {
